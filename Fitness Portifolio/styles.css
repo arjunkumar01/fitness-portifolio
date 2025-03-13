@@ -1,0 +1,394 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero__image{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0px 20px;
+    height: 100px;
+}
+
+.header__logo-image {
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.header__menu ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+
+.header__menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.header__menu li:hover {
+    text-decoration: underline;
+}
+
+.header__contact-button {
+    border: 2px solid white;
+    background-color: red;
+    text-align: center;
+    font-weight: 500;
+    padding: 10px 20px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.header__contact:hover {
+    opacity: 0.7;
+}
+
+.slider-container {
+    color: white;
+    margin: 180px 180px;
+}
+
+.slider__name {
+    font-size: 70px;
+    font-weight: 700;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    -webkit-text-stroke: 1px #f6f7f8;
+    -webkit-text-fill-color: transparent;
+    line-height: 0.8;
+}
+
+.slider__profession {
+    color: white;
+    font-size: 140px;
+    font-weight: bold;
+    font-family: "Oswald", sans-serif;
+}
+
+.slider__course {
+    border: 2px solid white;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family:"Oswald", sans-serif;
+    font-weight: 500;
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.slider__course:hover {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.course-container {
+    display: flex;
+    overflow: hidden;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.course__personal-training {
+    flex: 1;
+    background-color: black;
+    position: relative;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.course__personal-training img {
+    opacity: 0.7;
+    width: 780px;
+    height: 470px;
+    z-index: -1;
+    display: block;
+}
+
+.course__content {
+    position: absolute;
+    font-family:"Oswald", sans-serif;
+    text-align: center;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    margin: 0px 180px;
+    z-index: 2;
+
+}
+
+.course__content h1 {
+    font-size: 50px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 20px 0px 0px 0px;
+    margin-bottom: 0px;
+}
+
+.course__content p {
+    font-size: 16px;
+    font-weight: normal;
+    font-family: "Roboto Condensed", sans-serif;
+    padding-top: 10px;
+    margin-top: 0px;
+}
+
+.course__content button {
+    width: 200px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Oswald", sans-serif;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.course__content button:hover {
+    background-color: red;
+    opacity: 0.9;
+}
+
+.course__group-training {
+    flex: 1;
+    background-color: black;
+    position: relative;
+}
+
+.course__group-training img {
+    opacity: 0.7;
+    width: 760px;
+    height: 470px;
+    z-index: -1;
+}
+
+.card-container {
+    background-color: black;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.card-heading {
+    color: white;
+    text-align: center;
+    font-size: 90px;
+    font-weight: 700;
+    padding: 2px;
+    margin-top: -120px;
+    font-family: "Oswald", sans-serif;
+    -webkit-text-stroke: 2px #f6f7f8;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+
+.card-imgs-1{
+    display: flex;
+    padding: 0% 15% 0% 12%;
+    gap: 40px;
+}
+
+.card-h{
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+}
+
+.card-d{
+    color: white;
+    text-align: center;
+    font-family: "Oswald", sans-serif;
+}
+
+.card__items {
+    gap: 10px;
+    background-color: black;
+    padding-top: 150px;
+    margin: -80px 50px 0px 50px;
+    overflow: hidden;
+}
+
+.card__row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+.card_row-2{
+    margin-top: 40px;
+}
+
+.card__item_1 {
+    flex: 1;
+}
+
+.card__item_1 img {
+    width: 447px;
+    height: 450px;
+}
+
+.card__item_2 {
+    flex: 1;
+}
+
+.card__item_2 img {
+    width: 447px;
+    height: 450px;
+}
+
+.card__item_3 {
+    flex: 1;
+}
+
+.card__item_3 img {
+    width: 447px;
+    height: 450px;
+}
+
+.card__item_4 {
+    flex: 1;
+}
+
+.card__item_4 img {
+    width: 328px;
+    height: 450px;
+}
+
+.card__item_5 {
+    flex: 1;
+}
+
+.card__item_5 img {
+    width: 328px;
+    height: 450px;
+}
+
+.card__item_6 {
+    flex: 2;
+}
+
+.card__item_6 img {
+    width: 686px;
+    height: 450px;
+}
+
+.card-heading1{
+    margin-top: 20px;
+    margin-top: -50px;
+}
+
+.pricing_container {
+    display: flex;
+    gap: 30px;
+    margin-top: -80px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: black;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.pricing_img {
+    width: 90px;
+    height: 90px;
+    padding: 10px;                  /* Space inside the circle */
+    border-radius: 50%;              /* Makes the div circular */
+    background-color: red;       /* Background color for the padding space */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box; 
+    margin-left: 10px;
+}
+
+.pricing_option1, .pricing_option2, .pricing_option3 {
+    flex: 1;
+    border: 1px solid gray;
+    color: white;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.plan1, #month {
+    font-size: 32px;
+    color: white;
+    line-height: 0.2;
+}
+
+.plan1 {
+    color: red;
+    padding-left: 10px;
+}
+
+sub {
+    font-size: 15px;
+    color: white;
+}
+
+.features {
+    display: flex;
+    line-height: 0.7;
+    padding-left: 10px;
+}
+
+.features_icon {
+    position: relative;
+    top: 15px;
+}
+
+.features_1 {
+    margin-left: 20px;
+}
+
+.join_now_button {
+    border: 2px solid white;
+    width: 330px;
+    height: 30px;
+    margin: 25px 7px 0px 10px;
+    padding: 15px 0px 11px 0px;
+    text-align: center;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pricing_option1:hover .join_now_button {
+    background-color: red;
+}
+
+.pricing_option2:hover .join_now_button {
+    background-color: red;
+}
+
+.pricing_option3:hover .join_now_button {
+    background-color: red;
+}
+
+.join_now_button a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
