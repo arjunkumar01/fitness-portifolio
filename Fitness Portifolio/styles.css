@@ -493,7 +493,8 @@ sub {
 .contact_card_container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 180px;
 }
 .contact_card{
     display: flex;
@@ -556,6 +557,6 @@ footer{
     align-items: center;
     justify-content: center;
 }
-.footer_logo_container{
-    width: 100vw;
+.video_image {
+    width: 100%;
 }
