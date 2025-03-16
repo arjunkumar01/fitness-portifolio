@@ -65,7 +65,7 @@ body {
 
 .slider-container {
     color: white;
-    margin: 180px 180px;
+    margin : 180px 180px;
 }
 
 .slider__name {
@@ -377,6 +377,7 @@ sub {
 
 .pricing_option1:hover .join_now_button {
     background-color: red;
+    cursor: pointer;
 }
 
 .pricing_option2:hover .join_now_button {
